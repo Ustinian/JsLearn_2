@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<script type="text/javascript">
+		var a = prompt('Введите первое число');
+		var b = prompt('Введите второе число');
+		if (isNaN(a) || isNaN(b) ) {
+    alert('Необходимо ввести числа!');
+	} else if (a>=0 && b>=0) {
+		alert( a - b );
+	} else if ( a < 0 && b < 0) {
+    alert( a * b );
+	} else {
+    alert( a + b );
+	}
+	</script>
+</body>
+</html>
